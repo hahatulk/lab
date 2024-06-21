@@ -20,6 +20,6 @@ public class LuggageCar extends RailwayVehicle {
 
     @Override
     public String toString() {
-        return "Багажный вагон: вместимость=" + getCapacity() + ", багажа=" + getLuggageCount();
+        return "Багажный вагон: вместимость=" + this.getCapacity() + ", багажа=" + this.getLuggageCount();
     }
 }

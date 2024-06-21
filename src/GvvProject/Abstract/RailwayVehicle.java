@@ -15,12 +15,12 @@ public abstract class RailwayVehicle implements TrainCar, Sortable {
     }
 
     public int getCapacity() {
-        return capacity;
+        return this.capacity;
     }
 
     @Override
     public int getPassengerCount() {
-        return passengerCount;
+        return this.passengerCount;
     }
 
     @Override
@@ -30,7 +30,7 @@ public abstract class RailwayVehicle implements TrainCar, Sortable {
 
     @Override
     public int getLuggageCount() {
-        return luggageCount;
+        return this.luggageCount;
     }
 
     @Override
@@ -40,6 +40,6 @@ public abstract class RailwayVehicle implements TrainCar, Sortable {
 
     @Override
     public int getSortKey() {
-        return getComfortLevel();
+        return this.getComfortLevel();
     }
 }

@@ -13,7 +13,7 @@ public class PassengerCar extends RailwayVehicle {
 
     @Override
     public int getComfortLevel() {
-        return comfortLevel;
+        return this.comfortLevel;
     }
 
     @Override
@@ -23,6 +23,6 @@ public class PassengerCar extends RailwayVehicle {
 
     @Override
     public String toString() {
-        return "Пассажирский вагон: вместимость=" + getCapacity() + ", пассажиров=" + getPassengerCount() + ", багажа=" + getLuggageCount() + ", уровень комфорта=" + comfortLevel;
+        return "Пассажирский вагон: вместимость=" + this.getCapacity() + ", пассажиров=" + this.getPassengerCount() + ", багажа=" + this.getLuggageCount() + ", уровень комфорта=" + this.comfortLevel;
     }
 }
